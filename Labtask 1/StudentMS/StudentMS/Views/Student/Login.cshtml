@@ -1,0 +1,16 @@
+﻿@model StudentMS.Models.Admin
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Admin Login</h2>
+
+<div class="container">
+    <form action="/Student/Login" method="post">
+        <input type="text" class="form-control" name="UserName" placeholder="UserName" />
+        @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+        <input type="password" class="form-control" name="Password" placeholder="Password" />
+        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+        <input type="submit" class="btn btn-success" value="Log in" />
+    </form>
+</div>
