@@ -1,0 +1,18 @@
+H:\Project\New folder (2)\InventoryManagement\BEL\bin\Debug\BEL.dll
+H:\Project\New folder (2)\InventoryManagement\BEL\bin\Debug\BEL.pdb
+H:\Project\New folder (2)\InventoryManagement\BEL\obj\Debug\BEL.csprojAssemblyReference.cache
+H:\Project\New folder (2)\InventoryManagement\BEL\obj\Debug\BEL.csproj.CoreCompileInputs.cache
+H:\Project\New folder (2)\InventoryManagement\BEL\obj\Debug\BEL.dll
+H:\Project\New folder (2)\InventoryManagement\BEL\obj\Debug\BEL.pdb
+H:\Project\InventoryManagement\BEL\bin\Debug\BEL.dll
+H:\Project\InventoryManagement\BEL\bin\Debug\BEL.pdb
+H:\Project\InventoryManagement\BEL\obj\Debug\BEL.csprojAssemblyReference.cache
+H:\Project\InventoryManagement\BEL\obj\Debug\BEL.csproj.CoreCompileInputs.cache
+H:\Project\InventoryManagement\BEL\obj\Debug\BEL.dll
+H:\Project\InventoryManagement\BEL\obj\Debug\BEL.pdb
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BEL\bin\Debug\BEL.dll
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BEL\bin\Debug\BEL.pdb
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BEL\obj\Debug\BEL.csprojAssemblyReference.cache
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BEL\obj\Debug\BEL.csproj.CoreCompileInputs.cache
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BEL\obj\Debug\BEL.dll
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BEL\obj\Debug\BEL.pdb
