@@ -1,0 +1,16 @@
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\bin\Debug\AutoMapper.dll
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\bin\Debug\BusinessEntityLayer.dll
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\bin\Debug\BusinessEntityLayer.pdb
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll.config
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\bin\Debug\AutoMapper.xml
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csprojAssemblyReference.cache
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\bin\Debug\EntityFramework.dll
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessLogicLayer\bin\Debug\EntityFramework.xml

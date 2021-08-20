@@ -1,0 +1,6 @@
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessEntityLayer\bin\Debug\BusinessEntityLayer.dll
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessEntityLayer\bin\Debug\BusinessEntityLayer.pdb
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessEntityLayer\obj\Debug\BusinessEntityLayer.csprojAssemblyReference.cache
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessEntityLayer\obj\Debug\BusinessEntityLayer.csproj.CoreCompileInputs.cache
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessEntityLayer\obj\Debug\BusinessEntityLayer.dll
+H:\CodeASP.NET\4-TierChatBackEnd\BusinessEntityLayer\obj\Debug\BusinessEntityLayer.pdb
