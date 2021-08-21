@@ -13,5 +13,6 @@ namespace BusinessEntityLayer
         public string QuestionAnswer { get; set; }
         public string Topic { get; set; }
         public int CompanyId { get; set; }
+        public string CompanyName { get; set; }
     }
 }

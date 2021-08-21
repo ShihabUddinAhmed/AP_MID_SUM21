@@ -21,6 +21,12 @@ namespace _4_TierChatBackEnd.Controllers
         {
             return QuestionService.GetQuestion(id);
         }
+        [Route("api/Question/Text/{qtext}")]
+        public QuestionModel GetQuestion(string qtext)
+        {
+            qtext = qtext.Replace("_", " ");
+            return QuestionService.GetQuestionbyText(qtext);
+        }
         [Route("api/Question/Add")]
         public void AddStudent(QuestionModel model)
         {

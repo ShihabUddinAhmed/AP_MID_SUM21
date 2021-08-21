@@ -29,6 +29,18 @@ namespace DataAccessLayer
             return data;
         }
 
+        public static Question GetQuestionbyText(string qtext)
+        {
+            var data = context.Questions.FirstOrDefault(e => e.QuestionText == qtext);
+            return data;
+        }
+
+        /* public static List<Question> GetQuestionbyCompany(int companyId)
+         {
+             var data = context.Questions.ToList();
+             return data;
+         }*/
+
         public static List<string> GetQuestionTexts()
         {
             var data = context.Questions.Select(e => e.QuestionText).ToList();
