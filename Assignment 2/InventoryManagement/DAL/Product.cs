@@ -25,7 +25,7 @@ namespace DAL
         public int Price { get; set; }
         public int Qty { get; set; }
         public string Description { get; set; }
-        public int CategoryId { get; set; }
+        public Nullable<int> CategoryId { get; set; }
     
         public virtual Category Category { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

@@ -34,5 +34,22 @@ namespace DAL
             var data = context.Products.Select(e => e.Name).ToList();
             return data;
         }
+
+        public static void EditProduct(Product p)
+        {
+            var oldp = context.Products.FirstOrDefault(e => e.Id == p.Id);
+            /*oldp.Name = p.Name;
+            //manually change
+            context.Entry(oldp).State = System.Data.Entity.EntityState.Modified;*/
+            context.Entry(oldp).CurrentValues.SetValues(p);
+            context.SaveChanges();
+        }
+
+        public static void DeleteProduct(int Id)
+        {
+            var pr = context.Products.FirstOrDefault(e => e.Id == Id);
+            context.Products.Remove(pr);
+            context.SaveChanges();
+        }
     }
 }

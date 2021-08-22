@@ -39,5 +39,30 @@ namespace BLL
             //var d = new Category() { Id = dept.Id, Name = dept.Name };
             CartRepo.AddToCart(d);
         }
+
+        public static void AddToCart(CartModel e)
+        {
+            var d = AutoMapper.Mapper.Map<CartModel, CartTable>(e);
+            //var d = new Category() { Id = dept.Id, Name = dept.Name };
+            CartRepo.AddToCart(d);
+        }
+
+        public static CartModel GetCart(int id)
+        {
+            var data = CartRepo.GetCart(id);
+            var st = AutoMapper.Mapper.Map<CartTable, CartModel>(data);
+            return st;
+        }
+
+        public static void EditCart(CartModel model)
+        {
+            var data = AutoMapper.Mapper.Map<CartModel, CartTable>(model);
+            CartRepo.EditCart(data);
+        }
+
+        public static void DeleteItem(int Id)
+        {
+            CartRepo.DeleteCartItem(Id);
+        }
     }
 }

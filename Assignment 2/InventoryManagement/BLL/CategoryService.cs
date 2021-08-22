@@ -43,12 +43,35 @@ namespace BLL
             return deptdetail;
         }
 
+        public static CategoryModel GetCategory(int id)
+        {
+            var data = CategoryRepo.GetCategory(id);
+            var st = AutoMapper.Mapper.Map<Category, CategoryModel>(data);
+            return st;
+        }
+
         public static List<CategoryDetails> GetCategoryWithDetails()
         {
             var data = CategoryRepo.GetCategories();
             var dDetails = AutoMapper.Mapper.Map<List<Category>, List<CategoryDetails>>(data);
             return dDetails;
 
+        }
+
+        public static void EditCategory(CategoryModel model)
+        {
+            var data = AutoMapper.Mapper.Map<CategoryModel, Category>(model);
+            CategoryRepo.EditCategory(data);
+        }
+
+        public static void DeleteCategory(int model)
+        {
+            var c = GetCategoryDetail(model);
+            foreach (var item in c.Products)
+            {
+                ProductService.DeleteProduct(item.Id);
+            }
+            CategoryRepo.DeleteCategory(model);
         }
 
     }

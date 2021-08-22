@@ -15,7 +15,7 @@ namespace DAL
     public partial class OrderDetail
     {
         public int Id { get; set; }
-        public int ProductId { get; set; }
+        public Nullable<int> ProductId { get; set; }
         public int Qty { get; set; }
         public string InvoiceNumber { get; set; }
         public int TotalPrice { get; set; }

@@ -33,7 +33,7 @@ namespace BLL
         {
             Random r = new Random();
             int num = r.Next(52364, 1023652);
-            string invoice = num + "abc";
+            string invoice = num + "SSHH";
             var order = new OrderModel();
 
             order.InvoiceNumber = invoice;
@@ -65,6 +65,29 @@ namespace BLL
             return deptdetail;
         }
 
-       
+        public static OrderModel GetOrder(int invoice)
+        {
+            var d = OrderRepo.GetOrder(invoice);
+            var deptdetail = AutoMapper.Mapper.Map<Order, OrderModel>(d);
+            return deptdetail;
+        }
+
+        public static List<OrderDetailModel> GetOrderDetails(string id)
+        {
+            var d = OrderDetailsRepo.GetOrderDetails(id);
+            var deptdetail = AutoMapper.Mapper.Map<List<OrderDetail>, List<OrderDetailModel>> (d);
+            return deptdetail;
+        }
+
+        public static void DeleteOrder(int model)
+        {
+            var o = OrderRepo.GetOrder(model);
+            var orde = OrderDetailsService.GetOrderDetails(o.InvoiceNumber);
+            foreach (var od in orde)
+            {
+                OrderDetailsRepo.DeleteOrderDetails(od.Id);
+            }
+            OrderRepo.DeleteOrder(model);
+        }
     }
 }

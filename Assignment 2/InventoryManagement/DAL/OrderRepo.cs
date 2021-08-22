@@ -40,6 +40,17 @@ namespace DAL
             return context.Orders.FirstOrDefault(e => e.InvoiceNumber == invoice);
         }
 
-        
+        public static Order GetOrder(int invoice)
+        {
+            return context.Orders.FirstOrDefault(e => e.Id == invoice);
+        }
+
+        public static void DeleteOrder(int Id)
+        {
+            var pr = context.Orders.FirstOrDefault(e => e.Id == Id);
+            context.Orders.Remove(pr);
+            context.SaveChanges();
+        }
+
     }
 }

@@ -1,0 +1,16 @@
+﻿@model InventoryMVC.Models.Admin
+
+@{
+    ViewBag.Title = "Login To Inventory";
+}
+
+<h2>Login To Inventory</h2>
+
+<form action="/Login/Login" method="post">
+    <input type="hidden" value="@Request.QueryString["ReturnUrl"]" name="ReturnUrl" />
+    <input type="text" placeholder="Username" name="Username" class="form-control">
+    @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+    <input type="password" placeholder="Password" name="Password" class="form-control">
+    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+    <input type="submit" class="form-control" value="Login">
+</form>

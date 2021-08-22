@@ -24,10 +24,15 @@ namespace DAL
             context.SaveChanges();
         }
 
-       
 
-       
+        public static void DeleteOrderDetails(int Id)
+        {
+            var pr = context.OrderDetails.FirstOrDefault(e => e.Id == Id);
+            context.OrderDetails.Remove(pr);
+            context.SaveChanges();
+        }
 
-        
+
+
     }
 }

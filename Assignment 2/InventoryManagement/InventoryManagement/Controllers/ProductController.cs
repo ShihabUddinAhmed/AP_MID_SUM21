@@ -37,5 +37,12 @@ namespace InventoryManagement.Controllers
             return ProductService.GetProductNames();
         }
 
+        /*[Route("api/Product/Edit")]
+        [HttpPut]
+        public void EditProduct(ProductModel model)
+        {
+            ProductService.AddProduct(model);
+        }*/
+
     }
 }

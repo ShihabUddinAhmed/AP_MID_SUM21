@@ -27,8 +27,8 @@ namespace DAL
     
         public virtual DbSet<CartTable> CartTables { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
-        public virtual DbSet<OrderDetail> OrderDetails { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; }
         public virtual DbSet<Product> Products { get; set; }
     }
 }

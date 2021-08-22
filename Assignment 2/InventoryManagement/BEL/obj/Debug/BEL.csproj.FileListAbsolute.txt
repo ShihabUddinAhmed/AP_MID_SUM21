@@ -16,3 +16,9 @@ H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BEL\obj\Debug\BEL
 H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BEL\obj\Debug\BEL.csproj.CoreCompileInputs.cache
 H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BEL\obj\Debug\BEL.dll
 H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BEL\obj\Debug\BEL.pdb
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BEL\bin\Debug\BEL.dll
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BEL\bin\Debug\BEL.pdb
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BEL\obj\Debug\BEL.csprojAssemblyReference.cache
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BEL\obj\Debug\BEL.csproj.CoreCompileInputs.cache
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BEL\obj\Debug\BEL.dll
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BEL\obj\Debug\BEL.pdb

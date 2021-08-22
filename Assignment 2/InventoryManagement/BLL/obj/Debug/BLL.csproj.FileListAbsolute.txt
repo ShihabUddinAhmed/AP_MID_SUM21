@@ -46,3 +46,19 @@ H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BLL\obj\Debug\BLL
 H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BLL\obj\Debug\BLL.csproj.CopyComplete
 H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BLL\obj\Debug\BLL.dll
 H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment\InventoryManagement\BLL\obj\Debug\BLL.pdb
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\bin\Debug\BLL.dll
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\bin\Debug\BLL.pdb
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\bin\Debug\AutoMapper.dll
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\bin\Debug\BEL.dll
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\bin\Debug\DAL.dll
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\bin\Debug\EntityFramework.dll
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\bin\Debug\BEL.pdb
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\bin\Debug\DAL.pdb
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\bin\Debug\DAL.dll.config
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\bin\Debug\AutoMapper.xml
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\bin\Debug\EntityFramework.xml
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\obj\Debug\BLL.csproj.CopyComplete
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\obj\Debug\BLL.dll
+H:\CodeASP.NET\Git\AP_MID_SUM21\Assignment 2\InventoryManagement\BLL\obj\Debug\BLL.pdb

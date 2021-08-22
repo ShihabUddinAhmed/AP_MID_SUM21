@@ -33,5 +33,16 @@ namespace BLL
             var data = ProductRepo.GetProductNames();
             return data;
         }
+
+        public static void EditProduct(ProductModel model)
+        {
+            var data = AutoMapper.Mapper.Map<ProductModel, Product>(model);
+            ProductRepo.EditProduct(data);
+        }
+
+        public static void DeleteProduct(int model)
+        {
+            ProductRepo.DeleteProduct(model);
+        }
     }
 }
